@@ -1,0 +1,26 @@
+/* Add this to your existing CSS file or create a new one */
+
+.meat-item {
+    border: 1px solid #ccc;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    position: relative;
+    background: rgba(255, 255, 255, 0.8); /* Adjust the alpha (last value) for the glass effect */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional shadow for a lifted effect */
+  }
+  
+  .meat-item img {
+    max-width: 100%;
+    height: auto;
+    max-height: 150px; /* Adjust the maximum height as needed */
+    margin-top: 10px;
+    border-radius: 8px; /* Optional border-radius for rounded corners */
+  }
+  
+  /* Optional: Hover effect for a more interactive experience */
+  .meat-item:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease-in-out;
+  }
+  
